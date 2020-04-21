@@ -64,5 +64,3 @@ if __name__ == '__main__':
     person2.write_file()
     person2.read_file()
     # print(person2)
-    dictionary = {'Hello':'hi','wow':'Wow2'}
-    print(dictionary.items())
