@@ -59,8 +59,9 @@ class Person(object):
 
 
 if __name__ == '__main__':
-    person2 = Person("first","last","male",19)
-    person2.greeting()
-    person2.write_file()
-    person2.read_file()
-    # print(person2)
+    #Create instance from Person class
+    person1 = Person("First", "Last", "male", 19)
+    person1.greeting()
+    person1.write_file()
+    person1.read_file()
+    # print(person1)
