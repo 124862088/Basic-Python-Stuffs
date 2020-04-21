@@ -1,5 +1,6 @@
 import time
 
+
 class Person(object):
 
     def __init__(self,first_name,last_name,gender,age):
@@ -16,6 +17,7 @@ class Person(object):
         print("[+] Welcome to the club!" if self.age >= 18 else "[-] You are not over 18 yet.")
 
     def __str__(self):
+        # For a print() of every single instance
         return f"\t\tYour ID:" \
                f"\n\tName: {self.first_name +' '+self.last_name} " \
                f"\n\tGender: {self.gender}" \
@@ -44,6 +46,7 @@ class Person(object):
                 print("[-] Error happened - Please check your setting")
             finally:
                 test.close()
+
 
 if __name__ == '__main__':
     person2 = Person("first","last","male",19)
