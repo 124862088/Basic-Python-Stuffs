@@ -24,6 +24,16 @@ class Person(object):
                f"\n\tAge:{self.age}" \
                # f"\n\t{time.strftime('%d/%b/%Y %H:%M')}"
 
+    # def create_file(self):
+    #     filename = input("Enter the file name: ")
+    #     with open(f'{filename}.txt','x') as file:
+    #         try:
+    #             print(f'[+] File {filename} successfully created!')
+    #         except:
+    #             print(f'Something wrong happened - Please check')
+    #         finally:
+    #             file.close()
+
     def write_file(self):
         #Record the personal ID in the file.
         with open('test.txt','w') as test:
